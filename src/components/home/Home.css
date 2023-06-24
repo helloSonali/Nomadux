@@ -1,0 +1,28 @@
+.elementor-section .elementor-background-overlay {
+    height: 200%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+}
+/* .elementor-widget-image img { */
+    /* /~ vertical-align:; ~/ */
+    /* display: inline-block; */
+/* } */
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+   
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#totals>div>.why-choose-us-section {
+    background-color: #dbb7b3 !important;
+}

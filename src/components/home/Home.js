@@ -6,26 +6,33 @@ import Funfact from './Funfact'
 import Process from './Process'
 import WhyChooseUs from './WhyChooseUs'
 import Footer from '../footer/Footer'
+import Advertise from './Advertise'
+import Feature1 from './Feature1'
+import Map from './Map'
+import Testimonial from './Testimonial'
 
 function Home() {
   return (
     <React.Fragment>
     <Header/>
-  
-      <SuccessStory/>
-       <Funfact/>
-         <Process/>
-         <WhyChooseUs/>
-         <Footer/>
-    </React.Fragment>
+    <Advertise/>
+<Feature1/>
+    <SuccessStory/>
+    <Funfact/>
+     <Process/>
+     <WhyChooseUs/>
+     <Testimonial/>
     
+       <Footer/>
+      
+    </React.Fragment>
   )
 }
 
-export default Home
-// <Feature/>
-//     <SuccessStory/>
-//     <Funfact/>
-//     <Process/>
-//     <WhyChooseUs/>
-//     <Footer/>
+export default Home;
+//     <Feature/>
+//    <SuccessStory/>
+// <Funfact/>
+//   <Process/>
+//   <WhyChooseUs/>
+//   <Footer/>

@@ -3533,7 +3533,7 @@ img {
 
 .features-section {
     position: relative;
-    margin-top: -265px;
+    /* margin-top: -265px; */   /*ediited now*/
     z-index: 9;
     padding: 100px 0px 70px;
 }
@@ -3552,14 +3552,17 @@ img {
 
 .feature-block-one {
     position: relative;
+
 }
 
 .feature-block-one .inner-box {
     position: relative;
     max-width: 370px;
+3
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 0px 20px;
+    
 }
 
 .feature-block-one .inner-box::before {
@@ -3579,6 +3582,7 @@ img {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+    height: 400px;
 }
 
 .feature-block-one .inner-box:hover::before {
@@ -3601,7 +3605,7 @@ img {
     right: 0px;
     bottom: 0px;
     width: 75px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 35px;
     color: rgb(255, 255, 255);
     line-height: 75px;
@@ -3625,10 +3629,7 @@ img {
     position: relative;
 }
 
-.feature-block-one .inner-box:hover .image {
-    opacity: 0;
-    visibility: hidden;
-}
+
 
 .feature-block-one .content {
     position: relative;
@@ -3663,13 +3664,26 @@ img {
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+  
 }
 
 .feature-block-one .inner-box:hover .overlay {
     opacity: 1;
     visibility: visible;
+   
+   
 }
-
+.feature-block-one .inner-box:hover .image {
+    opacity: 0;
+    visibility: hidden;
+    
+}
+/* .feature-block-one .inner-box:hover  { */
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /*  */
+/* } */
+/*  */
 .feature-block-one .text {
     position: relative;
     color: rgb(255, 255, 255);
@@ -3752,6 +3766,7 @@ img {
 
 .features-section .bottom-content {
     position: relative;
+    bottom: 30%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -6812,6 +6827,7 @@ img {
 .projects-section .auto-container {
     max-width: 100%;
     padding: 0;
+    max-height: 800px;
 }
 
 .projects-section .tab-content {

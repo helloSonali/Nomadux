@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <React.Fragment>
     
-          <div className="header-upper">
+          <div className="header-upper  navbar">
             <div className="auto-container">
               <div className="inner-container clearfix">
                 {/*Logo*/}

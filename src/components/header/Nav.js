@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
   return (
@@ -35,10 +36,10 @@ function Nav() {
              <nav className="main-menu navbar-expand-md navbar-light">
                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                  <ul className="navigation clearfix">
-                   <li id="menu-item-1516" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-1516 active"><a title="Home" href="/" className="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Home</a></li>
-                   <li id="menu-item-1761" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1761 dropdown"><a title="About Us" href="#" data-toggle="dropdown1" className="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About Us<i className="fa fa-angle-down" /></a>
+                   <li id="menu-item-1516" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-1516 active"><NavLink title="Home" to="/" className="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Home</NavLink></li>
+                   <li id="menu-item-1761" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1761 dropdown"><NavLink title="About Us" href="/about" data-toggle="dropdown1" className="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">About Us<i className="fa fa-angle-down" /></NavLink>
                      <ul role="menu" className="submenu">
-                       <li id="menu-item-263" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a title="Our Mission" href="#">Our Mission</a></li>
+                       <li id="menu-item-263" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><NavLink title="Our Mission" to="/about">Our Mission</NavLink></li>
                        <li id="menu-item-1782" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1782 dropdown"><a title="Our Products" href="https://nomadux.com/our-products/">Our Products</a>
                          <ul role="menu" className="submenu">
                            <li id="menu-item-1785" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785"><a title="Wholesaling Caller Solutions" href="#">Wholesaling Caller Solutions</a></li>
@@ -64,7 +65,7 @@ function Nav() {
                        <li id="menu-item-1852" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1852"><a title="Agent Login" href="#">Agent Login</a></li>
                      </ul>
                    </li>
-                   <li id="menu-item-852" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-852"><a title="Contact Us" href="#" className="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</a></li>
+                   <li id="menu-item-852" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-852"><NavLink title="Contact Us" to="/contact" className="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</NavLink></li>
                    <li id="menu-item-2512" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-2512"><a title="Make a Payment" target="_blank" href="#" className="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Make a Payment</a></li>
                  </ul>
                </div>
