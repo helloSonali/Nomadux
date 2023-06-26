@@ -19,10 +19,73 @@
     box-shadow: none;
    
 }
-img{
-    max-width: 100%;
-    height: auto;
-}
+/* img{ */
+    /* max-width: 100%; */
+    /* height: auto; */
+/* } */
 #totals>div>.why-choose-us-section {
     background-color: #dbb7b3 !important;
+}
+/* news section css */
+.new-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+}
+.news-head{
+    font-size: 25px;
+    padding:10px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.news-para{
+    text-align: justify;
+   
+}
+.underline{
+  margin-bottom: 100px;
+    border-bottom: 5px dashed black;
+}
+.logo1 img{
+    position: relative;
+    top: 50%;
+right: 150%;
+    display: block;
+    /* text-align: center; */
+    /* padding: 10px 0px; */
+    margin-top: 50px;
+  
+    height: 70px !important;
+    width: 200px;
+    
+   
+    
+}
+.close-btn{
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding-right: px;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-right:20px;
+}
+.line{
+    color: blue;
+}
+@media only screen and (max-width: 767px){	
+	.header-style-three .header-top-two .search-toggler {
+	    display: none;
+	}
+    /* .navbar-right-info{ */
+/* display: none; */
+ /* } */
+}
+.product-sec{
+    margin-top: 50px;
+}
+.f-text{
+    margin-top: 80px;
 }

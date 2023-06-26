@@ -1,11 +1,11 @@
 import React from 'react'
-
+import './Home.css'
 function Feature1() {
   return (
     <React.Fragment>
    
-    <div>
-    <section className="features-section">
+    <div className='product-sec'>
+    <section className="features-section ">
       <div className="auto-container">
         <div className="sec-title text-center">
           <h2>OUR PRODUCTS</h2>
@@ -89,7 +89,7 @@ function Feature1() {
           </div>
         </div>
         <div className="bottom-content text-center">
-          <div className="text">We help take your small business to the next level. Don’t hesitate to contact us.</div>
+          <div className="f-text">We help take your small business to the next level. Don’t hesitate to contact us.</div>
           <h3>30 Minutes Free Consultation</h3>
           <div className="link-btn"><a href="#" className="theme-btn btn-style-two"><span className="btn-title">Send request</span></a></div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -52,8 +53,9 @@ function Footer() {
           <div className="footer-bottom">
             <div className="row m-0 justify-content-between">
               <ul className="menu">
-                <li><a href="#">Privacy Policy </a></li>
-                <li><a href="#">Terms &amp; Conditions</a></li>                  </ul>
+             
+                <li><NavLink to="/privacy-policy">Privacy Policy </NavLink></li>
+                <li><NavLink to="/term">Terms &amp; Conditions</NavLink></li>                  </ul>
               {/*Scroll to top Two*/}
               <div className="scroll-to-top-two scroll-to-target" data-target="html"><i className="fa fa-reply" />Get back to home</div>
             </div>

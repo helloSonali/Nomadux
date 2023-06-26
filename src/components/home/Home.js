@@ -10,6 +10,7 @@ import Advertise from './Advertise'
 import Feature1 from './Feature1'
 import Map from './Map'
 import Testimonial from './Testimonial'
+import News from './News'
 
 function Home() {
   return (
@@ -22,8 +23,8 @@ function Home() {
      <Process/>
      <WhyChooseUs/>
      <Testimonial/>
+    <News/>
     
-       <Footer/>
       
     </React.Fragment>
   )
