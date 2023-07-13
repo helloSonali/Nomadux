@@ -1,0 +1,49 @@
+.bg-y2{
+    background-color: #FDFEF5 !important;
+}
+.pd-2{
+    padding: 40px !important;
+    margin-top: 40px;
+}
+.va-text{
+    color: rgb(12,41,87) !important ;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    line-height: 1.7em !important;
+    padding:30px !important;
+}
+.va-head{
+    color: black  !important;
+    text-align: center  !important;
+    font-size: 30px  !important;
+    font-weight: 500  !important;
+}
+.va-mg{
+    padding: 14px 14px 14px 14px;
+    background-color: #000000;
+    border-radius: 0px 30px 0px 0px;
+    box-shadow: 6px 4px 0px 0px #BAB611;
+    /* width: 500px; */
+}
+.va-text1{
+    color:rgb(172,168,16) !important;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    line-height: 1.3em  !important;
+}
+.ArrowForwardIcon {
+
+  color: red;
+}
+.con{
+    border-right: 5px solid red;
+}
+.mt-30{
+margin-top: 60px;
+}
+.mmr-0{
+    margin-bottom: 0px;
+}

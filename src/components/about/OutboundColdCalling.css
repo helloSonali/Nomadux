@@ -1,0 +1,60 @@
+.bg-y1{
+    background-color: #FDFEF5 !important;
+}
+.pd-1{
+    padding: 40px 30px;
+    margin-top: 40px;
+}
+
+.oc-text{
+    color: rgb(12,41,87) !important ;
+    font-family: "Fira Sans", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding: 30px 30px;
+}
+.oc-head{
+    color: black  !important;
+    text-align: center  !important;
+    font-size: 30px  !important;
+    font-weight: 500  !important;
+}
+.oc-con{
+    color:rgb(12,41,87)  !important;
+    font-family: "Fira Sans", Sans-serif  !important;
+    font-size: 23px  !important;
+    font-weight: 400  !important;
+    line-height: 1.7em  !important;
+}
+.oc-mg{
+    padding: 14px 14px 14px 14px;
+    background-color: #000000;
+    border-radius: 0px 30px 0px 0px;
+    box-shadow: 6px 4px 0px 0px #BAB611;
+    /* width: 500px; */
+}
+.oc-text1{
+    color:rgb(172,168,16) !important;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    line-height: 1.3em  !important;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.oc-head1{
+    color: black  !important;
+    /* text-align: center  !important; */
+    font-size: 30px  !important;
+    font-weight: 500  !important;
+}
+.oc-conli{
+    color:rgb(12,41,87)  !important;
+    font-family: "Fira Sans", Sans-serif  !important;
+    font-size: 20px  !important;
+    font-weight: 400  !important;
+    line-height: 1.7em  !important;
+}

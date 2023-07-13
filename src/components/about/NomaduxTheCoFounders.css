@@ -1,0 +1,19 @@
+.nc-head{
+    color:rgb(0,0,0)!important ;
+    font-size: 40px !important ;
+    font-family: "Fira Sans", Sans-serif !important ;
+    font-weight: 600 !important ;
+    margin-top: 20px;
+}
+.nc-text{
+    color: black;
+    font-family: "Barlow", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.nc-link{
+    color:red !important;
+    font-size:25px !important;
+    line-height:1.4em !important;
+}

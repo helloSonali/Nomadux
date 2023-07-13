@@ -1,0 +1,67 @@
+.gs-text1 {
+    color: rgb(12,41,87) !important;
+   
+    font-family: "Fira Sans", Sans-serif !important ;
+    font-size: 23px !important;
+    font-weight: 400 !important ;
+    line-height: 1.7em !important;
+   
+
+}
+.gs-con{
+    padding-top: 70px;
+}
+.gs-sec1{
+    margin-top: 100px !important;
+}
+.gs-img1{
+
+    margin-top: 0 !important;
+}
+.gs-sub-head{
+    padding: 14px 14px 14px 14px;
+    background-color: rgb(0,96,155);
+    border-radius: 0px 30px 0px 0px;
+    box-shadow: 6px 4px 0px 0px #00010F;
+}
+.gs-sub-text{
+    color: #FFFFFF !important;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    line-height: 1.3em !important;
+   
+}
+.gs-m{
+    margin-top: 50px;
+}
+.fa-check{
+    color:rgb(130,26,130) !important;
+    font-size: 25px !important;
+}
+.gs-img2{
+    margin-top: 40px !important;
+}
+.gs-m1{
+    margin-top: 60px !important;
+}
+.gs-b-sec{
+    padding: 25px 25px 25px 25px;
+    background-color: #F1F4F8;
+}
+.gs-bt{
+    margin-top: 60px !important;
+}
+
+@media only screen and (max-width: 767px){
+
+    .gs-img{ 
+      
+        z-index: 999999;
+        position: absolute;
+        top: 70%;
+        right: 12%;
+        width: 300px !important;
+    }
+}

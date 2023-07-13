@@ -1,0 +1,38 @@
+.testimonial{
+    /* background-color:rgb(45,151,240); */
+    background-image: linear-gradient(180deg, #2c93f4 0%, #2fc2bb 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.test-heading h2{
+    font-size: 60px;
+    text-align: center;
+}
+.test-para p{
+    font-size: 20px;
+    text-align: center;
+}
+.test-video video{
+    height: 200px;
+    width: 600px;
+}
+.test-caption{
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.test-caption h5{
+    text-align: center;
+    margin-top: 5px;
+}
+.test-caption p{
+    text-align: center;
+}
+/* .arrow-prev{display:none;} */
+/* .arrow-next{display:none;} */
+.slick-slide{height:calc(100vh - 150px)}
+
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+    .slick-slide{height:100%!important;}
+
+}

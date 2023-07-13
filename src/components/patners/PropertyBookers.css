@@ -1,0 +1,18 @@
+.pb-btn{
+    font-family: "Barlow", Sans-serif !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    background-color: #FF0043 !important;
+    border-radius: 0px 0px 0px 0px !important;
+    box-shadow: 9px 7px 0px -3px rgba(61.500000000000014, 3.208695652173916, 3.208695652173916, 0.99) !important;
+    margin-right: 180px;
+}
+.pb-text{
+    color:rgb(12,61,130) !important;
+    font-family: "Barlow", Sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+.mar-1{
+    margin-top: 80px !important;
+}

@@ -1,0 +1,93 @@
+.bg-y2{
+    background-color: #FDFEF5 !important;
+}
+.pd-2{
+    padding: 40px !important;
+    margin-top: 40px;
+}
+.ac-text{
+    color: rgb(12,41,87) !important ;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    line-height: 1.7em !important;
+    padding:30px !important;
+}
+.ac-head{
+    color: black  !important;
+    text-align: center  !important;
+    font-size: 30px  !important;
+    font-weight: 500  !important;
+}
+.img2{
+    height: 700px !important;
+    padding: 0px !important;
+}
+.ac-mg{
+    padding: 14px 14px 14px 14px;
+    background-color: #000000;
+    border-radius: 0px 30px 0px 0px;
+    box-shadow: 6px 4px 0px 0px #BAB611;
+    /* width: 500px; */
+}
+.ac-text1{
+    color:rgb(172,168,16) !important;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    line-height: 1.3em  !important;
+}
+.ac-li-text{
+    color: rgb(12,41,87) !important ;
+    font-family: "Fira Sans", Sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    line-height: 1.7em !important;
+    
+}
+.ac-b-text{
+    padding-top: 80px !important;
+}
+.ac-wh{
+    color: white;
+}
+.req-sec{
+    background-color: rgb(25,24,40);
+    height: 400px;
+}
+.req-head{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.req-para{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.req-btn{
+   outline:5px solid white;
+
+color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius:5px ;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+display: block;
+width: 300px;
+margin: 0 auto;
+margin-top: 60px !important;
+
+}
+.req-btn:hover{
+background-color: whitesmoke;
+color: aqua;
+}
