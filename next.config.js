@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-        domains: ["images.pexels.com"],
-      },
+   images: {
+    domains: ['i.imgur.com', 'nomadux.com','el.commonsupport.com'],
+   
+  },
   reactStrictMode: true,
 
 }

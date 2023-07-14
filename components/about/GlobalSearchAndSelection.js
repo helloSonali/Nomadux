@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../header/Navbar'
-import Image from 'next/Image'
+
+import Image from 'next/image'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 function GlobalSearchAndSelection() {
   return (

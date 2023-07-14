@@ -1,6 +1,5 @@
 import React from 'react'
-// import './topnav.css';
-// import { NavLink } from 'react-router-dom';
+
 function TopNav() {
   return (
     <React.Fragment>

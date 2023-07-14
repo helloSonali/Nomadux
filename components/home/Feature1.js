@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 function Feature1() {
   return (
     <React.Fragment>
@@ -22,7 +22,7 @@ function Feature1() {
                   {/* <Image src="/images/Untitled-1111.png" alt="img"/> */}
                    <span class=" flaticon-customer-service"></span> 
                    </div>
-                <Image width={80} height={80} className="lazy-image owl-lazy" src="/images/caller1.jpg" data-src="/images/caller1.jpg" alt="Awesome Image" />
+                <Image width={400} height={300} className="lazy-image owl-lazy" src="/images/caller1.jpg" data-src="/images/caller1.jpg" alt="Awesome Image" />
               </div>
               <div className="content">
                 <h5>Our Services</h5>
@@ -47,7 +47,7 @@ function Feature1() {
                   {/* <Image src="images/Untitled-2222.png" /> */}
                    <span class=" flaticon-question"></span>
                   </div>
-                <Image width={80} height={80} className="lazy-image owl-lazy" src="/images/recu.jpg" data-src="/images/recu.jpg" alt="Awesome Image" />
+                <Image width={400} height={300} className="lazy-image owl-lazy" src="/images/recu.jpg" data-src="/images/recu.jpg" alt="Awesome Image" />
               </div>
               <div className="content">
               <h5>Our Services</h5>
@@ -71,7 +71,7 @@ function Feature1() {
                 <div className="icon">
                   {/* <Image src="images/Untitled-3333.png" /> */}
                    <span class=" flaticon-career"></span> </div>
-                <Image width={80} height={80} className="lazy-image owl-lazy" src="/images/outsourcing.jpg" data-src="images/outsourcing.jpg" alt="Awesome Image" />
+                <Image width={400} height={300} className="lazy-image owl-lazy" src="/images/outsourcing.jpg" data-src="images/outsourcing.jpg" alt="Awesome Image" />
               </div>
               <div className="content">
                 <h5>Our Services</h5>

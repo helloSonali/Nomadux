@@ -12,12 +12,15 @@ import WhyChooseUs from '@/components/home/WhyChooseUs'
 import Testimonial from '@/components/home/Testimonial'
 import News from '@/components/home/News'
 import Map from '@/components/home/Map'
+import Banner from '@/components/header/Banner'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+    
     <React.Fragment>
+    <Banner/>
     <Advertise/>
     <Feature1/>
     <SuccessStory/>

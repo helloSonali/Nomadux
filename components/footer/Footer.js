@@ -2,7 +2,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import Link from 'next/link'
-import Image from 'next/Image'
+import Image from 'next/image'
 function Footer() {
   return (
     <React.Fragment>

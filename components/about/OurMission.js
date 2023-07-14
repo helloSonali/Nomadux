@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Link from 'next/link';
@@ -133,7 +133,7 @@ function OurMission() {
                             <div className="elementor-widget-wrap elementor-element-populated">{/* */}
                               <div className="elementor-element elementor-element-3cc1249 elementor-widget elementor-widget-image" data-id="3cc1249" data-element_type="widget" data-widget_type="image.default">
                                 <div className="elementor-widget-container">
-                                  <Image width={80} height={80} src="iamges/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71.png" className="attachment-large size-large mis-img" alt="About Us" loading="lazy" srcSet="/images/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71.png , /images/2021/03/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71-300x242.png " />															</div>
+                                  <Image width={80} height={80} src="/images/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71.png" className="attachment-large size-large mis-img" alt="About Us" loading="lazy" srcSet="/images/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71.png , /images/2021/03/4a604b10dea857bb14cc1e5fb0d6ae958f1530f71-300x242.png " />															</div>
                               </div>
                             </div>
                           </div>											

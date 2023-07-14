@@ -1,7 +1,6 @@
 import Footer from '@/components/footer/Footer';
-import Banner from '@/components/header/Banner';
-// import Header from '@/components/header/Header';
-// import Navbar from '@/components/header/Navbar';
+// import Banner from '@/components/header/Banner';
+
 import TopNav from '@/components/header/TopNav';
 import Nav from '@/components/header/Nav';
 import '@/styles/globals.css'
@@ -11,8 +10,8 @@ export default function App({ Component, pageProps }) {
   return (
     <React.Fragment>
     <TopNav/>
-    <Nav/> 
-  <Banner/>
+  <Nav/>
+
     <Component {...pageProps} />
     <Footer/>
     </React.Fragment>);
